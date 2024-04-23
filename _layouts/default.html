@@ -28,42 +28,43 @@
 
         <h1 id="section1">DATABASE TIER</h1>
         <h1>Step 1: Create dockerfile for MongoDB</h1>
-        <img src="https://21bcp126cloud.github.io/three-tier-docker-app/images/0.png" alt="">
+        <img src="https://Meet344/21bcp126cloud.github.io/images/0.png" alt="">
         <h1>Step 2: Create Network</h1>
         <p><b>List available networks : </b>docker network ls <br><b>Create a Docker network : </b>docker network create ia2</p>
-        <img src="https://21bcp126cloud.github.io/three-tier-docker-app/images/1.png" alt="">
+        <img src="https://Meet344/21bcp126cloud.github.io/images/1.png" alt="">
 
         <h1>Step 3: Connecting MongoDB Container to Network</h1>
         <p><b>Build Docker image for MongoDB :</b> docker build -t 21bcp126-mongodb ./mongodb</p>
-        <img src="https://21bcp126cloud.github.io/three-tier-docker-app/images/2.png" alt="">
+        <img src="https://Meet344/21bcp126cloud.github.io/images/2.png" alt="">
         <p><b>Run MongoDB container :</b> docker run -d --name 21bcp126-mongodb-container --network ia2 21bcp126-mongodb</p>
-        <img src="https://21bcp126cloud.github.io/three-tier-docker-app/images/3.png" alt="">
+        <img src="https://Meet344/21bcp126cloud.github.io/images/3.png" alt="">
         
         <h1 id="section2">BACKEND TIER</h1>
         <h1>Step 4: Create dockerfile for Backend</h1>
-        <img src="https://21bcp126cloud.github.io/three-tier-docker-app/images/9.png" alt="">
+        <img src="https://Meet344/21bcp126cloud.github.io/images/9.png" alt="">
 
         <h1>Step 5: Building and Running Node.js Backend Container</h1>
         <p><b>Build Docker image for NodeJS backend : </b>docker build -t 21bcp126-backend ./backend</p>
-        <img src="https://21bcp126cloud.github.io/three-tier-docker-app/images/4.png" alt="">
+        <img src="https://Meet344/21bcp126cloud.github.io/images/4.png" alt="">
         <p><b>Run NodeJS backend container : </b>docker run -d --name 21bcp126-backend-container --network ia2 21bcp126-backend</p>
-        <img src="https://21bcp126cloud.github.io/three-tier-docker-app/images/5.png" alt="">
+        <img src="https://Meet344/21bcp126cloud.github.io/images/5.png" alt="">
 
         <h1 id="section3">FRONTEND TIER</h1>
         <h1>Step 6: Create dockerfile for Frontend</h1>
-        <img src="https://21bcp126cloud.github.io/three-tier-docker-app/images/10.png" alt="">
+        <img src="https://Meet344/21bcp126cloud.github.io/images/10.png" alt="">
 
         <h1>Step 7: Building and Running React Frontend Container</h1>
         <p><b>Build Docker image for Frontend : </b>docker build -t 21bcp126-frontend ./frontend</p>
-        <img src="https://21bcp126cloud.github.io/three-tier-docker-app/images/6.png" alt="">
+        <img src="https://Meet344/21bcp126cloud.github.io/images/6.png" alt="">
         <p><b>Run frontend container : </b>docker run -d --name 21bcp126-frontend-container --network ia2 21bcp126-frontend</p>
-        <img src="https://21bcp126cloud.github.io/three-tier-docker-app/images/7.png" alt="">
+        <img src="https://Meet344/21bcp126cloud.github.io/images/7.png" alt="">
 
         <h1>Step 8: Look for containers at Docker Desktop</h1>
-        <img src="https://21bcp126cloud.github.io/three-tier-docker-app/images/8.png" alt="">
+        <img src="https://Meet344/21bcp126cloud.github.io/images/8.png" alt="">
 
         <h1>Step 9: Project Frontend</h1>
-        <img src="https://21bcp126cloud.github.io/three-tier-docker-app/images/11.png" alt="">
+        <img src="https://Meet344/21bcp126cloud.github.io/images/11.png" alt="">
+        
         
 
     </div>
